@@ -157,7 +157,7 @@ describe("WhatsApp URL Generation", () => {
       dropLocation: "Mysore Palace",
     });
 
-    expect(url).toContain("https://wa.me/919482154789");
+    expect(url).toContain("https://wa.me/919348716399");
     expect(url).toContain("text=");
     expect(decodeURIComponent(url)).toContain("Executive Sedan");
     expect(decodeURIComponent(url)).toContain("10,000");

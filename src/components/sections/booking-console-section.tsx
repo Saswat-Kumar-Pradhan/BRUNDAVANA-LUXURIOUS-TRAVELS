@@ -15,8 +15,6 @@ import {
   Clock,
   Phone,
   MessageCircle,
-  ShieldCheck,
-  CheckCircle2,
   Plane,
   Navigation,
 } from "lucide-react";
@@ -129,7 +127,7 @@ export function BookingConsoleSection() {
   return (
     <section
       id="booking-console"
-      className="py-24 sm:py-32 lg:py-36 bg-[#FAF7EB] text-[#111114] relative overflow-hidden"
+      className="py-20 sm:py-24 bg-[#FAF7EB] text-[#111114] relative overflow-hidden"
     >
       {/* Decorative Yellow Circles (matching Dribbble screenshot) */}
       <div
@@ -147,57 +145,22 @@ export function BookingConsoleSection() {
 
       <Container className="relative z-10 max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
-          {/* Left Column: Spacious Pitch & Value Reassurances */}
-          <div className="lg:col-span-5 flex flex-col items-start text-left pt-2">
-            <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black text-[#F7BF17] text-xs font-bold uppercase tracking-wider mb-5">
-              <CheckCircle2 className="w-3.5 h-3.5" /> Direct Chauffeur Allocation
-            </span>
-
-            <h2 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-black text-[#111114] tracking-tight leading-[1.08] mb-6">
-              Your Ride is
+          {/* Left Column: Minimalistic & Elegant Pitch */}
+          <div className="lg:col-span-5 flex flex-col items-start text-left pt-2 lg:pt-6">
+            <h2 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-black text-[#111114] tracking-tight leading-[1.1] mb-5">
+              Your Ride is{" "}
               <span className="block text-[#111114]">Just a Click Away</span>
             </h2>
 
-            <p className="text-base text-zinc-700 leading-relaxed font-normal mb-8 max-w-lg">
-              Book a safe, comfortable, and affordable cab instantly. Whether you&apos;re traveling within Bengaluru, heading outstation, or taking an airport transfer — we dispatch verified 2026 fleet vehicles with polite highway chauffeurs.
+            <p className="text-base sm:text-lg text-zinc-600 leading-relaxed font-normal mb-8 max-w-md">
+              Instant cab reservations across Bengaluru, airport transfers, and outstation trips with courteous chauffeurs and transparent per-km billing.
             </p>
-
-            {/* Practical Service Highlights */}
-            <div className="space-y-4 mb-9 w-full max-w-md">
-              <div className="flex items-start gap-3.5 p-3.5 rounded-2xl bg-white/80 border border-stone-200">
-                <div className="w-9 h-9 rounded-xl bg-[#F7BF17] flex items-center justify-center shrink-0">
-                  <ShieldCheck className="w-5 h-5 text-black" />
-                </div>
-                <div>
-                  <h4 className="font-heading text-sm font-bold text-black">
-                    Zero Hidden Charges
-                  </h4>
-                  <p className="text-xs text-zinc-600">
-                    Transparent per-km billing with zero midnight surge pricing. Driver allowance included.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-3.5 p-3.5 rounded-2xl bg-white/80 border border-stone-200">
-                <div className="w-9 h-9 rounded-xl bg-[#F7BF17] flex items-center justify-center shrink-0">
-                  <Clock className="w-5 h-5 text-black" />
-                </div>
-                <div>
-                  <h4 className="font-heading text-sm font-bold text-black">
-                    Prompt 24/7 Dispatch
-                  </h4>
-                  <p className="text-xs text-zinc-600">
-                    Immediate confirmation on WhatsApp or phone with chauffeur contact in under 60s.
-                  </p>
-                </div>
-              </div>
-            </div>
 
             {/* Direct Helpline Button */}
             <div className="flex items-center gap-4">
               <a
                 href={`tel:${siteConfig.contact.primaryPhone}`}
-                className="rounded-full bg-black hover:bg-zinc-800 text-white px-7 py-3.5 text-xs sm:text-sm font-bold uppercase tracking-wider inline-flex items-center gap-2 shadow-md transition-all active:scale-95"
+                className="rounded-full bg-black hover:bg-zinc-800 text-white px-7 py-3.5 text-xs sm:text-sm font-bold uppercase tracking-wider inline-flex items-center gap-2.5 shadow-md transition-all active:scale-95"
               >
                 <Phone className="w-4 h-4 text-[#F7BF17]" />
                 <span>Call Desk: {siteConfig.contact.primaryPhoneDisplay}</span>

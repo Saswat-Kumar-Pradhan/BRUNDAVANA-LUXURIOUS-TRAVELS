@@ -12,7 +12,7 @@ export function WhatsAppLogo({ className = "w-5 h-5", size = 20 }: WhatsAppLogoP
       alt="WhatsApp"
       width={size}
       height={size}
-      className={`object-contain inline-block shrink-0 invert ${className}`}
+      className={`object-contain inline-block shrink-0 ${className}`}
       loading="eager"
     />
   );

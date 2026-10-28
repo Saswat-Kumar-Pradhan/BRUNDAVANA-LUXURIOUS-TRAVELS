@@ -77,20 +77,20 @@ export const siteConfig: SiteConfig = {
     name: "BRUNDAVANA LUXURIOUS TRAVELS",
     shortName: "Brundavana Travels",
     tagline: "Luxury Travel. Budget Price.",
-    slogan: "Any Time | On Time | In Time",
+    slogan: "Luxury Travel. Budget Price.",
     description:
-      "Bengaluru's premier chauffeur travel service. Brand new 2026 fleet including Toyota Hycross, Innova Crysta, Rumion, Kia Carens Clavis, Force Urbania, and Dzire for outstation, airport transfers, and local journeys.",
+      "Bengaluru's premier chauffeur travel service. Available fleet includes Toyota Rumion 2026, Toyota Hycross 2026, Kia Carens Clavis Top Model 2026, Urbania 2026, Maruti Suzuki Dzire (2026 & 2020), and Innova Crysta 2026 for outstation, airport transfers, and local journeys.",
     homeCity: "Bengaluru, Karnataka",
     establishedYear: 2016,
     logoText: "BRUNDAVANA",
   },
   contact: {
-    primaryPhone: "+919482154789",
-    primaryPhoneDisplay: "+91 94821 54789",
-    secondaryPhone: "+918861234567",
-    secondaryPhoneDisplay: "+91 88612 34567",
-    whatsappNumber: "919482154789",
-    whatsappNumberDisplay: "+91 94821 54789",
+    primaryPhone: "+919348716399",
+    primaryPhoneDisplay: "+91 93487 16399",
+    secondaryPhone: "+919348716399",
+    secondaryPhoneDisplay: "+91 93487 16399",
+    whatsappNumber: "919348716399",
+    whatsappNumberDisplay: "+91 93487 16399",
     email: "bookings@brundavanatravels.com",
     address: {
       street: "Plot No. 42, 100 Feet Road",
@@ -137,7 +137,7 @@ export const siteConfig: SiteConfig = {
   trustPoints: [
     {
       id: "punctual",
-      title: "Any Time | On Time | In Time",
+      title: "Punctual & Reliable 24x7",
       description: "Punctual doorstep arrival guaranteed with live flight and route tracking.",
       icon: "Clock",
     },
@@ -205,9 +205,9 @@ export const siteConfig: SiteConfig = {
     },
     {
       id: "faq-2",
-      question: "Which vehicles are available in your 2026 fleet?",
+      question: "Which vehicles are available in your fleet?",
       answer:
-        "Our flagship 2026 fleet features: 2 units of Toyota Innova Hycross Hybrid, Toyota Innova Crysta 2026, Toyota Rumion 2026, Kia Carens Clavis Top Model 2026, Force Urbania Luxury 14-seater Van, and Maruti Suzuki Dzire (2026 & 2020 editions).",
+        "Our available fleet features: Toyota Rumion 2026, Toyota Hycross 2026, Kia Carens Clavis Top Model 2026, Urbania 2026, Maruti Suzuki Dzire (2026 & 2020 editions), and Innova Crysta 2026.",
       category: "services",
     },
     {
